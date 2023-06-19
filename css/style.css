@@ -1,0 +1,14 @@
+
+#logo_header{
+    width: 180px;
+    margin-left: 50px;
+
+}
+
+.contenitore {
+    background-color: rgb(60, 148, 199);
+    background-image: url('./pattern.png');
+    background-position: center;
+    background-repeat: repeat;
+
+}
