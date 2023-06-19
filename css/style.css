@@ -40,6 +40,14 @@
 #text_footer {
     text-align: center;
     color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -65,6 +73,10 @@ span {
     height: 270px;
 }
 
+.section2 {
+    font-size: 12px;
+}
+
 .section3 {
     font-size: 15px;
 }
@@ -74,6 +86,15 @@ span {
 }
 
 .container2 {
-    margin-top: 20px;
     background-color: #3b4471;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
