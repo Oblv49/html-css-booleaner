@@ -76,7 +76,9 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(odd) {background-color: #dfe5f2;}
+tr:nth-child(odd) {
+    background-color: #dfe5f2;
+}
 
 .container {
     background-color: rgb(121, 199, 245);
