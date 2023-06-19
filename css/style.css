@@ -60,6 +60,24 @@ span {
     color: rgb(90, 90, 247);
 }
 
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #7fa6fb;
+    color: white;
+    width: 70px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {background-color: #dfe5f2;}
+
 .container {
     background-color: rgb(121, 199, 245);
     background-image: url('./pattern.png');
