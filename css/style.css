@@ -6,13 +6,13 @@
 }
 
 #titolo {
-    margin-left: 50px;
+    
     margin-bottom: 0;
     font-size: 30px;
 }
 
 #sottotitolo {
-    margin-left: 50px;
+   
     margin-top: 0;
     margin-bottom: 0;
     font-size: 11px;
@@ -20,7 +20,7 @@
 }
 
 #sottotitolo1 {
-    margin-left: 50px;
+   
     margin-top: 0;
     font-size: 11px;
     color: grey;
@@ -37,6 +37,17 @@
     font-size: 11px;
 }
 
+#text_footer {
+    text-align: center;
+    color: white;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
 span {
     color: rgb(90, 90, 247);
 }
@@ -44,12 +55,25 @@ span {
 .container {
     background-color: rgb(121, 199, 245);
     background-image: url('./pattern.png');
-    background-position: center;
+    background-position: center center;
     background-repeat: repeat;
-
+    background-size: 25%;
+    
 }
 
-.container1 {
-    margin-left: 50px;
-    
+.container1 img {
+    height: 270px;
+}
+
+.section3 {
+    font-size: 15px;
+}
+
+.section3 ul {
+    margin-left: -25px; 
+}
+
+.container2 {
+    margin-top: 20px;
+    background-color: #3b4471;
 }
