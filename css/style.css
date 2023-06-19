@@ -26,16 +26,30 @@
     color: grey;
 }
 
+#photo1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+#photo2 {
+     margin-top: 0;
+    font-size: 11px;
+}
 
 span {
     color: rgb(90, 90, 247);
 }
 
-.contenitore {
-    background-color: rgb(60, 148, 199);
+.container {
+    background-color: rgb(121, 199, 245);
     background-image: url('./pattern.png');
     background-position: center;
     background-repeat: repeat;
 
 }
 
+.container1 {
+    margin-left: 50px;
+    
+}
